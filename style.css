@@ -1,0 +1,100 @@
+* {
+    font-family: system-ui;
+}
+
+body {
+    width: 30%;
+    margin: auto;
+}
+
+.card-wrapper {
+    background-color: #f6f2eb;
+    overflow: hidden;
+}
+
+.top-section {
+    background-color: #2a4a3a;
+    color: white;
+    padding: 2px 5px;
+    text-align: center;
+}
+
+.categories-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.about-section {
+    border-top: 3px solid #2a4a3a;
+    padding: 0 20px;
+}
+
+.about-info {
+    display: flex;
+    align-items: center;
+}
+
+.bottom-section {
+    background-color: #2a4a3a;
+    color: white;
+    text-align: right;
+}
+
+.bottom-section p {
+    padding: 5px 20px;
+    margin: 0;
+}
+
+.price-wrapper {
+    display: flex;
+    justify-content: end;
+}
+
+.price-section {
+    background-color: #2a4a3a;
+    width: 110px;
+    height: 110px;
+    color: white;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 80px;
+    right: 585px;
+    margin: 20px;
+}
+
+.price-section p {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-text {
+    line-height: 25px;
+}
+
+.price-text, .price {
+    font-size: 1.2em;
+}
+
+.price {
+    font-weight: 700;
+}
+
+.kolli {
+    font-size: 0.6em;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: unset;
+        margin: 0;
+    }
+  }
